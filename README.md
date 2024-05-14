@@ -4,7 +4,10 @@ Tunck Base Development (TBD) 廣為所知是由 Paul Hammant 於 2013-04-05 在 
 
 深入了解此開發模式，越發覺得非常符合現代迭代的開發精神，與持續整合的精神高度吻合，很適合帶入工作團隊內的使用運作。
 
-因此分享一份目前使用中，由.Net 8 WebAPI專案提供範例的開發方式做為起頭，希望能得到第三方的建議進而讓TBD得到更好發展。
+但要達成TBD工作流, 實作 branch by abstration 必不可少，透過BBA才能在不斷地將feature分支不斷合併到主幹分支之餘，
+還能控管功能上線狀況，配合現實的業務模式。
+
+因此分享目前使用中由.Net 8 WebAPI專案提供範例的開發方式，希望能得到他人建議進而讓這種開發方式能得到更好發展。
 
 ## 作法
 1. HelloWorldController 直接回傳 "Hello World"
